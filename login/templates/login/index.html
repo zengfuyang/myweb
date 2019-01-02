@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}首页{% endblock %}
+{#{% block css %}<link href="{% static 'css/login.css' %}" rel="stylesheet"/>{% endblock %}#}
+
+{% block content %}
+    <p>欢迎来到</p>
+
+    <script type="application/javascript">
+        $(document).ready(function () {
+            $("#base_logout").hide();
+        });
+    </script>
+
+{% endblock %}
